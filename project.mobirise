@@ -21,7 +21,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 9,
+    "uniqCompNum": 11,
     "versionPublish": "4.9.1"
   },
   "pages": {
@@ -283,6 +283,39 @@
           ],
           "_name": "slider6",
           "_anchor": "slider6-8"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Projects",
+          "title2": "Years",
+          "title3": "Clients",
+          "title4": "Days",
+          "number1": "1783",
+          "number2": "12",
+          "number3": "1247",
+          "number4": "777",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-a"
         }
       ]
     }
