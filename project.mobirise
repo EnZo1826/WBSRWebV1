@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page4.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -24,7 +24,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 42,
+    "uniqCompNum": 50,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -57,7 +57,7 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "title": "Salt at its Best",
+                "title": "<span style=\"font-weight: normal;\">Salt at it's Best</span>",
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "",
@@ -118,7 +118,13 @@
             "Theme"
           ],
           "_name": "slider7",
-          "_anchor": "slider7-1"
+          "_anchor": "slider7-1",
+          "_styles": {
+            "H1": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -159,7 +165,7 @@
               "width": 1400
             },
             "video": {
-              "src": "https://www.youtube.com/embed/lR17-DBwLq0",
+              "src": "https://youtu.be/lR17-DBwLq0",
               "autoplay": "on",
               "loop": "on",
               "active": true
@@ -418,7 +424,7 @@
     "page1.html": {
       "settings": {
         "title": "Vision &amp; Values",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -826,7 +832,7 @@
     "page2.html": {
       "settings": {
         "title": "board-of-directors",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1022,7 +1028,7 @@
     "page3.html": {
       "settings": {
         "title": "social-responsibility",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1137,7 +1143,7 @@
     "page4.html": {
       "settings": {
         "title": "Products",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1467,6 +1473,367 @@
           "_anchor": "custom-html-10",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "HomeVideo",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header1.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/lR17-DBwLq0?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/lR17-DBwLq0",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Salt at it's Best</i></span>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1d",
+          "_styles": {
+            "H1": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to Walvis Bay Salt Holdings",
+          "text": "Walvis Bay Salt Holdings (Pty) Ltd, through its various subsidiaries, is the largest producer of solar sea salt in sub-Saharan Africa. The group process 50 million tons of seawater to produce in excess of 700 000 tons of high-quality salt per annum. The total operation covers an area of 4500ha.<br><br>The Group exports to various countries, including Nigeria, Cameroon, South Africa and Europe.<br><br>In addition to producing salt for the chemical industry and other general purposes the Group also produce high quality table salt for the Southern Africa market. Besides South Africa, triple refined sea salt is exported to neighbouring countries, including Angola, Democratic Republic of Congo, Botswana and Zambia, mainly for human consumption. &nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-17"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://youtu.be/lR17-DBwLq0",
+              "autoplay": "on",
+              "loop": "on",
+              "active": true
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-18"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showArrows": true,
+            "showBullets": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "visibleSlides": "5",
+            "slides": [
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/ncp-chlorchem-logo-960x560.png",
+                    "link": "http://www.ncp.co.za/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cah-chlor-alkali-holdings-960x560.png",
+                    "link": "http://www.caholdings.co.za/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/watersol-logo-960x560.png",
+                    "link": "http://www.watersolsa.co.za/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/botash-sa-logo-960x560.png",
+                    "link": "http://www.botash.co.za/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/botswanna-ash-pty-ltd-logo-960x560.png",
+                    "link": "http://www.botash.bw/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/wbsh-1200x461.png",
+                    "link": "http://www.wbsalt.co.za/",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              }
+            ]
+          },
+          "title": "Our clients",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider6",
+          "_anchor": "slider6-19"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Projects",
+          "title2": "Years",
+          "title3": "Clients",
+          "title4": "Days",
+          "number1": "1783",
+          "number2": "12",
+          "number3": "1247",
+          "number4": "777",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-1a"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#2d4186"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "Walvis Bay Salt Holdings (PTY) LTD Copyright 2011-2019 | All Rights Reserved<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1b"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1c"
         }
       ]
     }
