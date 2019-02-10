@@ -7,7 +7,7 @@
       "title": "SpaceM",
       "styling": {
         "primaryColor": "#e5e5e5",
-        "secondaryColor": "#46004C",
+        "secondaryColor": "#2d4186",
         "successColor": "#2BE080",
         "infoColor": "#1A5CEB",
         "warningColor": "#E0C119",
@@ -24,7 +24,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 54,
+    "uniqCompNum": 57,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -1887,21 +1887,123 @@
       "components": [
         {
           "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
             "googleMap": {
               "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.475349553506!2d14.461750312801122!3d-23.024849701177228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c76e6237a7d2179%3A0xefde82084293aa3c!2sSalt+Works!5e0!3m2!1sen!2sna!4v1549804748553\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
               "placeId": "iframe",
               "state": "ok"
-            },
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#fff"
+            }
           },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "FOR ANY GENERAL ENQUIRIES PLEASE COMPLETE FORM BELOW",
+          "text": "",
+          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
+          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
+          "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
+          "text1": "Salt Pans, Lagoon Area, Walvis Bay",
+          "text2": "<a href=\"mailto:sample@sample.com\">i</a>info@wbsalt.com",
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+</a>264 64 213 350",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jacohanekom90@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">contact us</a>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "map2",
-          "_anchor": "map2-1h"
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": false,
+            "showSubtitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Text with title1",
+          "subtitle1": "Physical Address",
+          "text1": "Walvis Bay Salt Refiners (Pty) Ltd<br>Salt Pans<br>Lagoon Area<br>Walvisbay<br>Tel: +264 64 213 350<br>Fax: +264 64 209 635",
+          "title2": "Text with title2",
+          "subtitle2": "Business Development Director",
+          "text2": "Gregory Swarts<br>Tel: +264 64 213 350<br>Mobile: +264 81 128 6385<br>Email: gregory.swarts@wbsalt.com",
+          "title3": "Text with title3",
+          "subtitle3": "Bulk Sales Agent",
+          "text3": "Kevin Brett<br>Tel: +27 11 803 2904<br>Mobile: +27 83 627 2329<br>Email: kbrett@ilangasel.co.za",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title2",
+          "_anchor": "title2-1k"
         }
       ]
     }
