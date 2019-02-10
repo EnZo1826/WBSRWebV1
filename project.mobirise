@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page5.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -24,7 +24,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 50,
+    "uniqCompNum": 54,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -424,7 +424,7 @@
     "page1.html": {
       "settings": {
         "title": "Vision &amp; Values",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -469,7 +469,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-b"
+          "_anchor": "header1-b",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -513,7 +519,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-c"
+          "_anchor": "header1-c",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -557,7 +569,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-d"
+          "_anchor": "header1-d",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -601,7 +619,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-e"
+          "_anchor": "header1-e",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -645,7 +669,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-f"
+          "_anchor": "header1-f",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -689,7 +719,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-g"
+          "_anchor": "header1-g",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -733,7 +769,13 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-h"
+          "_anchor": "header1-h",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_params": {
@@ -832,7 +874,7 @@
     "page2.html": {
       "settings": {
         "title": "board-of-directors",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1028,7 +1070,7 @@
     "page3.html": {
       "settings": {
         "title": "social-responsibility",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1143,7 +1185,7 @@
     "page4.html": {
       "settings": {
         "title": "Products",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1483,7 +1525,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1834,6 +1876,32 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_anchor": "custom-html-1c"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "ContactUs",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.475349553506!2d14.461750312801122!3d-23.024849701177228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c76e6237a7d2179%3A0xefde82084293aa3c!2sSalt+Works!5e0!3m2!1sen!2sna!4v1549804748553\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            },
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff"
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-1h"
         }
       ]
     }
