@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page6.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -1770,14 +1770,14 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.75
           },
-          "title1": "Projects",
-          "title2": "Years",
-          "title3": "Clients",
-          "title4": "Days",
-          "number1": "1783",
-          "number2": "12",
-          "number3": "1247",
-          "number4": "777",
+          "title1": "Days without lost time",
+          "title2": "Previous Record Number of Days",
+          "title3": "Total Incidents",
+          "title4": "Total Reported Incidents",
+          "number1": "192",
+          "number2": "230",
+          "number3": "4",
+          "number4": "2",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
