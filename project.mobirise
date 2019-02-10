@@ -22,7 +22,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 26,
+    "uniqCompNum": 32,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -786,8 +786,8 @@
       "components": [
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -815,8 +815,8 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -844,8 +844,8 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -873,8 +873,8 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -902,8 +902,8 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -928,6 +928,20 @@
           ],
           "_name": "text1",
           "_anchor": "text1-p"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div class=\"container\">\n  <h2>Product Specification</h2>\n  <h1>Walvis Bay Salt Refiners Chemical Grade Salt</h1>            \n  <table class=\"table table-bordered\">\n    <thead>\n      <tr>\n        <th>Analysis</th>\n        <th>Unit</th>\n        <th>Specification</th>\n        <th>Typical</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>NaCl (Dry Basis)</td>\n        <td>% m/m</td>\n        <td>&gt; 97.0</td>\n        <td>99.4</td>\n      </tr>\n      <tr>\n        <td>Moisture (non-occluded)</td>\n        <td>% m/m</td>\n        <td>&lt; 3.0</td>\n        <td>2</td>\n      </tr>\n      <tr>\n        <td>Moisture (Total)</td>\n        <td>% m/m</td>\n        <td>&lt; 4.0</td>\n        <td>2.4</td>\n      </tr>\n      <tr>\n        <td>Sulphate as SO4</td>\n        <td>% m/m</td>\n        <td>&lt; 0.5</td>\n        <td>0.27</td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}\n\nth {\n  text-align: center;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-v",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     }
