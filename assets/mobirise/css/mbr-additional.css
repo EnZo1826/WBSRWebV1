@@ -111,11 +111,11 @@ a,
 .c-info .timer,
 .contacts .mbr-iconfont,
 .mbr-gallery-filter li.active {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 .item-layer,
 .close:hover {
-  background: rgba(217, 1, 237, 0.5);
+  background: rgba(229, 229, 229, 0.5);
 }
 .styled:before,
 .styled span:before,
@@ -125,16 +125,16 @@ a,
 .mbr-gallery-filter li:before,
 .separator:before,
 .bgc {
-  background: #d901ed;
+  background: #e5e5e5;
 }
 input:focus,
 textarea:focus {
-  border-color: #d901ed !important;
+  border-color: #e5e5e5 !important;
 }
 .mbr-slider .carousel-indicators li.active,
 .mbr-slider .carousel-indicators li:hover {
-  background-color: #d901ed !important;
-  border-color: #d901ed !important;
+  background-color: #e5e5e5 !important;
+  border-color: #e5e5e5 !important;
 }
 a:hover,
 .team-item.news h5 a:hover,
@@ -142,14 +142,14 @@ a:hover,
 .adr-link:hover,
 .mbr-gallery-filter li:hover,
 .news-min .text a:hover {
-  color: #ea12fe;
+  color: #f6f6f6;
 }
 .mbr-section-subtitle,
 .content1 .image .mbr-iconfont {
   color: #46004c;
 }
 .bg-primary {
-  background-color: #d901ed !important;
+  background-color: #e5e5e5 !important;
 }
 .bg-success {
   background-color: #2be080 !important;
@@ -174,14 +174,14 @@ a:hover,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #d901ed;
-  border-color: #d901ed;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #9301a1 !important;
-  border-color: #9301a1 !important;
+  background-color: #bfbfbf !important;
+  border-color: #bfbfbf !important;
 }
 .btn-secondary {
   background-color: transparent;
@@ -294,19 +294,19 @@ a:hover,
   border: #fff;
 }
 .btn-black:hover {
-  background: #d901ed;
-  border: #d901ed;
+  background: #e5e5e5;
+  border: #e5e5e5;
   color: #fff;
 }
 .btn-white:hover {
-  background: #d901ed;
-  border: #d901ed;
+  background: #e5e5e5;
+  border: #e5e5e5;
   color: #fff;
 }
 .btn-primary-outline {
   background: none;
-  border-color: #7c0187;
-  color: #7c0187;
+  border-color: #b2b2b2;
+  color: #b2b2b2;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -314,14 +314,14 @@ a:hover,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #d901ed;
-  border-color: #d901ed;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #d901ed !important;
-  border-color: #d901ed !important;
+  background-color: #e5e5e5 !important;
+  border-color: #e5e5e5 !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -424,7 +424,7 @@ a:hover,
   border-color: #eb5a1a !important;
 }
 .text-primary {
-  color: #d901ed !important;
+  color: #e5e5e5 !important;
 }
 .text-success {
   color: #2be080 !important;
@@ -451,36 +451,36 @@ a:hover,
   background-color: #eb5a1a;
 }
 .btn-social {
-  border-color: #d901ed;
+  border-color: #e5e5e5;
 }
 .btn-social:hover {
-  background: #d901ed;
+  background: #e5e5e5;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #d901ed;
+  background: #e5e5e5;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 .lead a,
 .lead a:hover {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 .lead blockquote {
-  border-color: #d901ed;
+  border-color: #e5e5e5;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #f9bbff;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -500,47 +500,59 @@ a:hover,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #d901ed;
+  color: #e5e5e5;
 }
 /*image*/
 .mbr-figure .mbr-figure-caption-over {
-  background: -moz-linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7)) !important;
-  background: -ms-linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7)) !important;
-  background: -o-linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7)) !important;
-  background: -webkit-linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7)) !important;
-  background: linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7)) !important;
+  background: -moz-linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7)) !important;
+  background: -ms-linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7)) !important;
+  background: -o-linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7)) !important;
+  background: -webkit-linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7)) !important;
+  background: linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7)) !important;
 }
 /*progress bar*/
 .progress-primary[value]::-webkit-progress-value {
-  background-color: #d901ed;
+  background-color: #e5e5e5;
 }
 .progress-primary[value]::-moz-progress-bar {
-  background-color: #d901ed;
+  background-color: #e5e5e5;
 }
 .progress-primary[value]::-ms-fill {
-  background-color: #d901ed;
+  background-color: #e5e5e5;
 }
 @media screen and (min-width: 0\0) {
   .progress-primary .progress-bar {
-    background-color: #d901ed;
+    background-color: #e5e5e5;
   }
 }
 /*process*/
 .process1 .image .bgr {
-  background: -webkit-linear-gradient(left, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7));
-  background: -o-linear-gradient(right, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7));
-  background: -moz-linear-gradient(right, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7));
-  background: linear-gradient(to right, rgba(217, 1, 237, 0.2), rgba(238, 51, 255, 0.7));
+  background: -webkit-linear-gradient(left, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7));
+  background: -o-linear-gradient(right, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7));
+  background: -moz-linear-gradient(right, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7));
+  background: linear-gradient(to right, rgba(229, 229, 229, 0.2), rgba(255, 255, 255, 0.7));
 }
 /*accordion*/
 .panel.active .panel-heading a,
 .panel:hover .panel-heading a {
-  border-color: #d901ed;
+  border-color: #e5e5e5;
 }
 .panel-heading a:hover span:before,
 .panel-heading a:hover span:after,
 .panel.active .panel-heading a span:after {
-  background: #d901ed;
+  background: #e5e5e5;
+}
+#custom-html-11 {
+  /* Type valid CSS here */
+}
+#custom-html-11 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-11 p {
+  font-size: 60px;
+  color: #777;
 }
 
 
