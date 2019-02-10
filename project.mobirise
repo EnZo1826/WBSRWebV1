@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page3.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -22,7 +22,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 21,
+    "uniqCompNum": 26,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -324,7 +324,7 @@
     "page1.html": {
       "settings": {
         "title": "Vision &amp; Values",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -640,7 +640,7 @@
     "page2.html": {
       "settings": {
         "title": "board-of-directors",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -744,7 +744,7 @@
     "page3.html": {
       "settings": {
         "title": "social-responsibility",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -775,6 +775,159 @@
           ],
           "_name": "text1",
           "_anchor": "text1-k"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Products",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Products and Operations",
+          "text": "The salt field operation at Walvis Bay comprises two companies, Salt &amp; Chemicals (Pty) Ltd and Walvis Bay Salt Holdings (Pty) Ltd.\n<br>\n<br>Salt &amp; Chemicals produces the raw salt whilst Walvis Bay Salt Refiners further processes and markets the salt.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-l"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "The Process",
+          "text": "The Walvis Bay Salt Refiners salt production process is based on the solar evaporation of seawater to produce 99,4% pure sodium chloride (NaCl) on dry mass basis.\n<br>\n<br>Seawater, which is the only raw material, contains a 3,5% concentration of salts with 2,9% sodium chloride. The water is pumped from a natural lagoon at a rate of 240m3 per minute into a series of pre-evaporation ponds and then through a series of concentration ponds. The total operation covers an area of 4000ha. Stimulated by wind and sun the brine salinity (concentrated salt water) content gradually increases until it reaches 25%, at which point it is pumped into crystallization ponds, each with a surface area of around 20ha. The salt then crystallizes to form a layer of crystals on the various crystallizer pavements.\n<br>\n<br>During the evaporation process, brine depths and densities are controlled to ensure that the maximum number of unwanted chemical impurities are precipitated before they enter the crystallizers. A similar monitoring program is adopted to control the depth and density of crystallization ponds to achieve optimum efficiency levels. Performance is constantly monitored by technicians at an on-site laboratory.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-m"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Harvesting and Washing",
+          "text": "Once the salt crystals have grown to the required depth, the salt is removed by mechanical harvesters and transported to a wash plant. Here, the salt undergoes a process of washing, using dilute brine as the washing medium. During the wash process calcium sulphate and magnesium is remove which adheres to the salt. The final salt solution is then dried in a centrifuge and stored on a stockpile for further draining.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Ship Loading and Exports",
+          "text": "To avoid contamination, the salt destined for bulk exports is transported from the bulk storage facility at the harbour by a conveyor belt and spout-trimmed into the ship’s hold at the Walvis Bay dockside. Loading can take place on a 24-hour basis, seven days a week.\n<br>\n<br>Some of the salt is shipped to South Africa for use in the Chlor-Alkali industry, but increasing amounts are now being exported to other countries in Africa.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-o"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Bagged Salt",
+          "text": "Salt required by customers in bags is packed at a bagging facility, according to individualized bag mass requirements, and incorporating specific package identification and granule sizes according to customer needs.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-p"
         }
       ]
     }
