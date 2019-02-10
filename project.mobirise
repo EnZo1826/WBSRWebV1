@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page2.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -22,7 +22,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 20,
+    "uniqCompNum": 21,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -324,7 +324,7 @@
     "page1.html": {
       "settings": {
         "title": "Vision &amp; Values",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -640,7 +640,7 @@
     "page2.html": {
       "settings": {
         "title": "board-of-directors",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -738,6 +738,43 @@
           ],
           "_name": "process1",
           "_anchor": "process1-j"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "social-responsibility",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Social Responsibility",
+          "text": "Walvis Bay Salt Holdings (Pty) Ltd operates within the Walvis Bay Lagoon Ramsar Site area, which is in the Dorob National Park, and forms an important element in the conservation of birdlife in the area. The salt field system, together with the adjacent Walvis Bay Estuary, has been identified as one of the important wetlands in Africa. Nutrients found in the ponds sustain a variety of wetland birds such as flamingos and other waders. Up to 120 000 birds at a time have been gathered at the salt field and more than 60 different species have been identified. The Company is involved in the annual bird count and is committed to help protect the wetlands area.\n<br>\n<br>Historically the Company supported the various schools in the Erongo Region financially, but has taken the decision to take a more pro-active role in the way the funding is applied in future.\n<br>\n<br>Giving the vast need in Namibia for engineers and technicians, the Company is focusing on maths and science education and literacy. Both Namibia and South Africa have consistent sub-standard performance in these subjects, so the Company is now, amidst other initiatives, assisting a structured program for teachers to learn how to teach maths and science successfully to their students.\n<br>\n<br>Our employees and community are important to us and we strive to assist where possible with various intercompany social responsibility programs currently running.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-k"
         }
       ]
     }
