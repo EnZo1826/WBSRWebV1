@@ -22,7 +22,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 33,
+    "uniqCompNum": 35,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -786,14 +786,15 @@
       "components": [
         {
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "showTitle": true,
-            "showText": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/salt-production-3-1159x560.jpg",
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -801,22 +802,36 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.7"
           },
-          "title": "Products and Operations",
-          "text": "The salt field operation at Walvis Bay comprises two companies, Salt &amp; Chemicals (Pty) Ltd and Walvis Bay Salt Holdings (Pty) Ltd.\n<br>\n<br>Salt &amp; Chemicals produces the raw salt whilst Walvis Bay Salt Refiners further processes and markets the salt.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Products and Operations</i></span>",
+          "text": "The salt field operation at Walvis Bay comprises two companies, Salt &amp; Chemicals (Pty) Ltd and Walvis Bay Salt Holdings (Pty) Ltd. \n<br>\n<br>Salt &amp; Chemicals produces the raw salt whilst Walvis Bay Salt Refiners further processes and markets the salt.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "text1",
-          "_anchor": "text1-l"
+          "_name": "header1",
+          "_anchor": "header1-x"
         },
         {
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
@@ -844,14 +859,15 @@
         },
         {
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "showTitle": true,
-            "showText": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/harvesting-washing-1024x532.jpg",
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -859,22 +875,36 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.7"
           },
-          "title": "Harvesting and Washing",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Harvesting and Washing</i></span>",
           "text": "Once the salt crystals have grown to the required depth, the salt is removed by mechanical harvesters and transported to a wash plant. Here, the salt undergoes a process of washing, using dilute brine as the washing medium. During the wash process calcium sulphate and magnesium is remove which adheres to the salt. The final salt solution is then dried in a centrifuge and stored on a stockpile for further draining.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "text1",
-          "_anchor": "text1-n"
+          "_name": "header1",
+          "_anchor": "header1-y"
         },
         {
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
