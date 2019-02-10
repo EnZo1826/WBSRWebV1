@@ -584,3 +584,15 @@ a:hover,
 #custom-html-w th {
   text-align: center;
 }
+#custom-html-10 {
+  /* Type valid CSS here */
+}
+#custom-html-10 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-10 p {
+  font-size: 60px;
+  color: #777;
+}
