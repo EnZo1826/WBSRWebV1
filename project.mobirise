@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WBSHWebV1",
-    "currentPage": "page1.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -22,8 +22,9 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "uniqCompNum": 18,
-    "versionPublish": "4.9.1"
+    "uniqCompNum": 20,
+    "versionPublish": "4.9.1",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -323,7 +324,7 @@
     "page1.html": {
       "settings": {
         "title": "Vision &amp; Values",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -633,6 +634,110 @@
           ],
           "_name": "header1",
           "_anchor": "header1-h"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "board-of-directors",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showImages": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/kc-radebe-183x275.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/caa-snyman-200x300.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/bj-grove-200x300.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/gf-swartz-200x300.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title": "<em>Our</em> Design",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
+          "title1": "KC Radebe<br>DIRECTOR (alternate)<br>",
+          "title2": "caa snyman<br>managing DIRECTOR<br>",
+          "title3": "BJ Grove<br>director (executive)<br>",
+          "title4": "Gf swarts<br>DIRECTOR (EXECUTIVE)<br>",
+          "text1": "2009 - B.Acc.(Wits)<br>2012 - Chartered Accountant (RSA)<br>2013 - Investec Principal Investments, Consultant",
+          "text2": "1987 - B.Ed (University of Stellenbosch)<br>1996 - B.Sc (Chem) - University of Stellenbosch<br>1997 - MBA Graduate School of Business - University of Stellenbosch<br>Registered as Feed Production Engineer: Swiss School of Feed milling, Uzwill, Switzerland (Buhler Group)<br>Manufacturing Industry - 23 Years Experience<br>Animal Feeds Industry - 20 Years Experience<br>Experience in Acting as Board Member on various boards in Namibia sincy 2005<br>9 Years experience as Managing Director at various Companies<br><br>",
+          "text3": "1998 - B.Acc (Hons) University of Stellenbosch<br>CA (SA), CA (Nam)<br>Until 2003 - Audit Manager (PwC)<br>Extensive experience in the manufacturing industry with at least 8 years spent within multinationals<br>Also serves on various other Boards within Namibia.",
+          "text4": "Various management positions in the Group, Operations, Production, Logistics<br>MDP (University of Stellenbosch Business School)<br>Senior Management Development Program (University of Stellenbosch Business School)",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "process1",
+          "_anchor": "process1-j"
         }
       ]
     }
